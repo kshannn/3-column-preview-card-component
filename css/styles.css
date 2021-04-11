@@ -60,30 +60,33 @@ html, body {
 	line-height: 2;
 }
 /*button*/
-.divContent button {
+.divContent a {
 	border-radius: 50px;
+	border: 2px solid;
 	border-color: hsl(0, 0%, 95%);
 	line-height: 2.5;
+	padding: 10px 20px;
 	width: 100px;
 	background-color: hsl(0, 0%, 95%);
+	text-decoration: none;
 }
 
-.divContent button:hover {
+.divContent a:hover {
 	cursor: pointer;
 	background-color: transparent;
 	color: hsla(0, 0%, 100%, 0.75);
 }
 
 
-.firstDiv button {
+.firstDiv a {
 	color: hsl(31, 77%, 52%);
 }
 
-.secondDiv button {
+.secondDiv a {
 	color: hsl(184, 100%, 22%);
 }
 
-.thirdDiv button {
+.thirdDiv a {
 	color: hsl(179, 100%, 13%);
 }
 
@@ -121,11 +124,14 @@ html, body {
 	position: relative;
 }
 
-.divContent button {
+.divContent a {
 	width: 150px;
-	line-height: 3;
+	height: 30px;
+	line-height: 30px;
 	position: absolute;
 	bottom: -220px;
+	text-align: center;
+	padding: 10px 0px;
 }
 
 }
